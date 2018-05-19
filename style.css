@@ -424,7 +424,7 @@ textarea::-moz-placeholder {
 	box-shadow: black 0px 0px 8px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
 
 	.logo {
 		width: 150px !important;
@@ -485,6 +485,7 @@ textarea::-moz-placeholder {
 	}
 
 }
+
 
 @media (max-width: 893px) {
 
