@@ -42,6 +42,10 @@ function abrir() {
 	document.getElementById("lateral").style.right = "-500px";
 }
 
+function imagem() {
+	document.getElementById("imagemdepoimento").style.height = "300px";
+}
+
 //865 - Zion
 //703 - House
 
