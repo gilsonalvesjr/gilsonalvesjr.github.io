@@ -247,7 +247,7 @@ nav {
 	width: 40%;
 	height: 300px;
 	color: #fff;
-	text-align: justify;
+	text-align: center;
 	display: block;
 	margin: auto;
 	font-family: montserrat;
@@ -450,6 +450,12 @@ textarea::-moz-placeholder {
 
 
 @media (max-width: 576px) {
+	
+	
+	#sobre {
+		height: auto !important;
+	}
+	
 
 	.logo {
 		width: 150px !important;
@@ -476,7 +482,9 @@ textarea::-moz-placeholder {
 
 	.titlesobre {
 		font-size:30px !important;
-		top:25% !important;
+		padding-top: 140px;
+		padding-bottom: 30px;
+		
 	}
 		
 	.titlesobre::after {
@@ -490,7 +498,7 @@ textarea::-moz-placeholder {
 	.paragrafosobre {
 		font-size: 15px !important;
 		width: 85% !important;
-		top:30% !important;
+		padding-bottom: 100px;
 	}
 
 	.titlespaco {

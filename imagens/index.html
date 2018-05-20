@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+	<style>
+		.depoimentos {
+			width: 300px;
+			height: 700px;
+			background-color: #fff;
+		}
+		
+		#imagemdepoimento {
+			width: 300px;
+			float: left;
+			height: 700px;
+			background-image: url(dpoim1.jpg);
+			background-size: cover;
+			background-position: center;
+			transition: 0.4s all;
+			cursor: pointer;
+			position: absolute;
+		}
+		
+		.textodepoimento {
+			float: right;
+			position: relative;
+			bottom:0;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<div class="depoimentos">
+		<div id="imagemdepoimento" onMouseMove="imagem()" onMouseOut="imagemfechar()"></div>
+		<div id="textos">
+			<p class="textodepoimento">"Ótimo atendimento, gostei muito do ambiente, me senti muito confortável."</p>
+			<h1 class="nome-depoimento">José Renato</h1>
+		</div>
+	</div>
+
+	
+	<script>
+		function imagem() {
+			document.getElementById("imagemdepoimento").style.height = "500px";
+			document.getElementById("imagemdepoimento").style.opacity = "1";
+		}
+		
+		function imagemfechar() {
+			document.getElementById("imagemdepoimento").style.height = "700px";
+		}
+	</script>
+	
+</body>
+</html>
