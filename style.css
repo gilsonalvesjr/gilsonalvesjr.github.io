@@ -488,6 +488,10 @@ textarea::-moz-placeholder {
 		
 	}
 	
+	.faixa {
+		display: none !important;
+	}
+
 	.faixafixa {
 		display: none !important;
 	}
