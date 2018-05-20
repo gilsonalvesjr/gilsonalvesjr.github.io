@@ -12,7 +12,7 @@ $(function() {
 	var $window = $(window);
 	$window.on("scroll", function() {
 		
-		if($window.scrollTop() > 865) {
+		if($window.scrollTop() > posicao.top - 100) {
 			document.getElementById("faixa").style.opacity = "1";
 		} else {
 			document.getElementById("faixa").style.opacity = "0";
@@ -49,3 +49,9 @@ function imagem() {
 //865 - Zion
 //703 - House
 
+var item = $(".faixafixa");
+var posicao = item.offset();
+
+console.log (
+	posicao.top
+)
