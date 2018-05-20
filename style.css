@@ -489,11 +489,11 @@ textarea::-moz-placeholder {
 	}
 	
 	.faixa {
-		display: none !important;
+		width: 0px !important;
 	}
 
 	.faixafixa {
-		display: none !important;
+		width: 0px !important;
 	}
 		
 	.titlesobre::after {
@@ -524,7 +524,7 @@ textarea::-moz-placeholder {
 
 	.subtitulo-contato {
 		font-size: 20px !important;
-	}
+	}	
 
 }
 
