@@ -486,6 +486,10 @@ textarea::-moz-placeholder {
 		padding-bottom: 30px;
 		
 	}
+	
+	#faixa {
+		display: none;
+	}
 		
 	.titlesobre::after {
 		margin-top: 10px !important;
