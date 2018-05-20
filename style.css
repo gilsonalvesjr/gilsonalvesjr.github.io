@@ -451,6 +451,9 @@ textarea::-moz-placeholder {
 
 @media (max-width: 730px) {
 	
+	header::after {
+		display: none;
+	}
 	
 	#sobre {
 		height: auto !important;
@@ -464,11 +467,11 @@ textarea::-moz-placeholder {
 	}
 
 	.titulo {
-		font-size: 30px !important;
+		font-size: 25px !important;
 	}
 	
 	.subtitulo {
-		font-size: 20px !important;
+		font-size: 15px !important;
 	}
 
 	#espaco {
