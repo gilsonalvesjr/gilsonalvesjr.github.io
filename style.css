@@ -488,7 +488,7 @@ textarea::-moz-placeholder {
 		
 	}
 	
-	#faixafixa {
+	.faixafixa {
 		display: none !important;
 	}
 		
