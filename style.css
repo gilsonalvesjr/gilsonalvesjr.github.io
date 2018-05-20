@@ -451,7 +451,7 @@ textarea::-moz-placeholder {
 
 @media (max-width: 730px) {
 	
-	header::after {
+	#sobre::after {
 		display: none !important;
 	}
 	
@@ -471,11 +471,18 @@ textarea::-moz-placeholder {
 	}
 	
 	.subtitulo {
-		font-size: 15px !important;
+		font-size: 17px !important;
+		width: 300px;
+		margin: auto;
+		display: block;
 	}
 
 	#espaco {
 		height:auto !important;
+	}
+	
+	header::after {
+		display: none !important;
 	}
 
 	.galeria img{
