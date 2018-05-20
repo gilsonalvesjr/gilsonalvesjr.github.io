@@ -488,12 +488,12 @@ textarea::-moz-placeholder {
 		
 	}
 	
-	.faixa {
-		width: 0px !important;
+	#faixa {
+		display: none !important;
 	}
 
 	.faixafixa {
-		width: 0px !important;
+		display: none !important;
 	}
 		
 	.titlesobre::after {
