@@ -4,14 +4,8 @@ $(document).ready(function($) {
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
    });
   });
-	console.log(
-		$(window).scrollTop()
-	);
-
 $(function() {
-	var $window = $(window);
 	$window.on("scroll", function() {
-		
 		if($window.scrollTop() > posicao.top - 100) {
 			document.getElementById("faixa").style.opacity = "1";
 		} else {
@@ -33,25 +27,16 @@ $(function() {
 		}
 	});
 });
-
 function abrir() {
 	document.getElementById("lateral").style.right = "0px";
 }
-
  function fechar() {
 	document.getElementById("lateral").style.right = "-500px";
 }
-
 function imagem() {
 	document.getElementById("imagemdepoimento").style.height = "300px";
 }
 
-//865 - Zion
-//703 - House
-
 var item = $(".faixafixa");
 var posicao = item.offset();
-
-console.log (
-	posicao.top
-)
+var $window = $(window);
