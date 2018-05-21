@@ -326,95 +326,6 @@ nav {
 	text-align: right;	
 }
 
-#contato {
-	width: 100%;
-	height: auto;
-	background-image: url(imagens/banner5.jpg);
-	background-size: cover;
-}
-
-.titlecontato {
-	font-family: montserrat;
-	color: #fff;
-	text-align: center;
-	font-size: 50px;
-	font-weight: 500;
-	padding-top: 200px;
-}
-
-.subtitulo-contato {
-	font-family: montserrat;
-	color: #fff;
-	font-size:25px;
-	text-align: center;
-	padding-top: 20px;
-	font-weight: 300; 
-}
-
-form{
-	padding: 20px;
-}
-
-.itensform {
-	display: block;
-	width: 300px;
-	height: 45px;
-	margin: 10px auto 10px auto;
-	border: none;
-	padding: 10px 0px 0px 10px;
-	transition: 0.5s;	
-}
-
-.itensform:focus {
-	box-shadow: black 0px 0px 8px;
-}
-
-#formulario {
-	padding-bottom:100px;
-}
-
-.textarea {
-	display: block;
-	width: 300px;
-	height: 80px;
-	margin: 10px auto 10px auto;
-	border: none;
-	padding: 10px 0px 0px 10px;
-	transition: 0.5s;	
-}
-
-.textarea:focus {
-	box-shadow: black 0px 0px 8px;
-}
-
-input::-moz-placeholder {
-	color: gray;
-	font-family: montserrat;
-	text-indent: 1.5em;
-	font-weight: 600;
-}
-
-textarea::-moz-placeholder {
-	color: gray;
-	font-family: montserrat;
-	text-indent: 1.5em;
-	font-weight: 600;
-}
-
-.enviar {
-	display: block;
-	width: 200px;
-	height: 45px;
-	margin: 10px auto 10px auto;
-	border: none;
-	transition: 0.5s;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	box-shadow: black 0px 0px 8px;
-}
-
 .textodepoimento {
 	font-family: montserrat;
 	font-size: 15px;
@@ -437,6 +348,148 @@ textarea::-moz-placeholder {
 	font-family: montserrat;
 	font-size: 20px;
 	color: #25375b;
+}
+
+
+#contato {
+	width: 100%;
+	height: auto;
+	background-image: url(imagens/banner5.jpg);
+	background-size: cover;
+}
+
+.titlecontato {
+	font-family: montserrat;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 500;
+	padding-top: 170px;
+}
+
+.subtitulo-contato {
+	font-family: montserrat;
+	color: #fff;
+	font-size:25px;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 300; 
+}
+
+#espacoscontatos {
+	height: 500px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.espacoum {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.espacodois {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.espacotres {
+	width: 100%;
+	height: auto;
+}
+
+.agendamento {
+	width: 400px;
+	height: 340px;
+	padding: 1px 0px 0px 0px;
+	margin: 20px auto auto auto;
+	display: block;
+}
+
+.button-enviar {
+	padding: 10px;
+	width: 90px;
+	margin: 15px auto auto auto;
+	display: block;
+	border: none;
+	border-radius: 3px;
+	font-family: montserrat;
+	font-weight: 600;
+	color: rgb(54, 54, 54);
+	box-shadow: #2b2b2b 0px 0px 6px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.button-enviar:hover {
+	background-color: #25375b;
+	color: #fff;
+}
+
+.titulo-agendamento {
+	font-family: montserrat;
+	color: #fff;
+	font-size:30px;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400; 
+}
+
+.p-agendamento {
+	font-family: montserrat;
+	color: #fff;
+	font-size:17px;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 400; 
+}
+
+select {
+	height: 40px;
+	width: 310px;
+	background-color: white;
+	border: none;
+	display: block;
+	margin: 20px auto auto auto;
+	box-shadow: #2b2b2b 0px 0px 6px;
+ }
+
+.itemform {
+	height: 30px;
+	width: 300px;
+	text-align: center;
+	margin: 20px auto auto auto;
+	display: block;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: #212121 0px 0px 6px;
+}
+
+.itemform::-moz-placeholder {
+	font-family: montserrat;
+	font-size: 15px;
+	color: rgb(121, 121, 121);
+	font-weight:400;
+	text-align: left;
+}
+
+.textocontato {
+	margin: 20px auto auto auto;
+	width: 305px;
+	height: 100px;
+	border: none;
+	border-radius:5px;
+	display: block;
+}
+
+.itemform-mensagem::-moz-placeholder {
+	font-family: montserrat;
+	font-size: 15px;
+	color: rgb(121, 121, 121);
+	font-weight:400;
+	text-align: left;
 }
 
 footer {
@@ -484,7 +537,25 @@ span {
 }
 
 @media (max-width: 730px) {
+
+	.titulo-agendamento {
+		font-size:20px;
+	}
 	
+	.p-agendamento {
+		font-size:15px;
+	}
+
+	.espacoum {
+		width: 100% !important;
+		height: 100% !important;
+	}
+		
+	.espacodois {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
 	#sobre::after {
 		display: none !important;
 	}
@@ -572,6 +643,7 @@ span {
 }
 
 @media (max-width: 893px) {
+
 
 	#menuresponsivo {
 		display: block;

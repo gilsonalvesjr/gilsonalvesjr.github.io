@@ -33,10 +33,17 @@ function abrir() {
  function fechar() {
 	document.getElementById("lateral").style.right = "-500px";
 }
-function imagem() {
-	document.getElementById("imagemdepoimento").style.height = "300px";
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+	center: {lat: -22.893436, lng: -43.123789},
+	zoom: 15
+  });
 }
+
 
 var item = $(".faixafixa");
 var posicao = item.offset();
 var $window = $(window);
+var altura = screen.height;

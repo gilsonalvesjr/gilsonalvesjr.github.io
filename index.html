@@ -12,7 +12,7 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous">
 </script>
-<script src="javasvript.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </head>
 <body>
 	<header id="home">
@@ -91,28 +91,57 @@
 		</div>
 	</section>
 	<section id="contato">
-			<h1 class="titlecontato">Contato</h1>
-			<h1 class="subtitulo-contato">Entre em contato conosco!</h1>
-			<div id="formulario">
-				<form>
-					<input class="itensform" type="name" placeholder="Nome">
-					<input class="itensform" type="email" placeholder="E-mail">
-					<input class="itensform" type="tel" placeholder="Telefone/Celular">
-					<textarea class="textarea" placeholder="Mensagem"></textarea>
-					<button type="submit" class="enviar">Enviar</button>
-				</form>
+		<h1 class="titlecontato">Contato</h1>
+		<h1 class="subtitulo-contato">Entre em contato conosco!</h1>
+		<div id="espacoscontatos">
+			<div class="espacoum">
+					<h1 class="titulo-agendamento">Agendamento de Horário</h1>
+					<p class="p-agendamento">Preencha o formulário abaixo e agende seu corte!</p>
+					<form class="agendamento">
+						<input class="itemform" type="name" placeholder="Nome">
+						<input class="itemform" type="tel" placeholder="Telefone">
+						<input class="itemform" type="e-mail" placeholder="E-mail">
+						<input class="itemform" type="date" placeholder="E-mail">
+							<select>
+								<option value="08:00">08:00</option>
+								<option value="08:00">09:00</option>
+								<option value="08:00">10:00</option>
+								<option value="08:00">11:00</option>
+								<option value="08:00">13:00</option>
+								<option value="08:00">14:00</option>
+								<option value="08:00">15:00</option>
+								<option value="08:00">16:00</option>
+								<option value="08:00">17:00</option>
+							</select>
+							<button type="submit" class="button-enviar">Agendar</button>
+					</form>
 			</div>
+			<div class="espacodois">
+					<h1 class="titulo-agendamento">Fale conosco!</h1>
+					<p class="p-agendamento">Alguma dúvida ou sugestão? Envie-nos uma mensagem!</p>
+					<form class="agendamento">
+							<input class="itemform" type="name" placeholder="Nome">
+							<input class="itemform" type="tel" placeholder="Telefone">
+							<input class="itemform" type="e-mail" placeholder="E-mail">
+							<textarea class="textocontato"></textarea>
+							<button type="submit" class="button-enviar">Enviar</button>
+					</form>	
+			</div>
+		</div>
+		<div class="espacotres">
+				<div id="map" style="width:100%;height:700px;"></div>
+		</div>
 	</section>
 	<footer>
 		<div class="faixafooter"></div>
 		<a href="#home" class="scroll">
 			<img class="logofooter" src="logo.svg" width="140">
 		</a>
-		<a href="https://www.facebook.com/barbeariakingsman">
+		<a href="https://www.facebook.com/barbeariakingsman" target="_blank">
 			<img class="facebookicon" src="imagens/icons/facebook-logo.svg" width="30">
 		</a>
-		<h1 class="plocalizacao">Av. Amaral Peixoto<br><span>º675 - Niterói, RJ</span></h1>
+		<h1 class="plocalizacao">Av. Ernani Amaral Peixoto<br><span>º675 - Niterói, RJ</span></h1>
 	<script src="javasvript.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbxNEae48TgDVYahThmlDvK9pZ-iMTC3M&callback=initMap"></script>
 </body>
 </html>
-
