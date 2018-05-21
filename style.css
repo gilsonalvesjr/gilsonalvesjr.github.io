@@ -550,6 +550,10 @@ span {
 		width: 100% !important;
 		height: 100% !important;
 	}
+
+	.itemform {
+		margin: 20px auto auto auto;
+	}
 		
 	.espacodois {
 		width: 100% !important;
