@@ -400,7 +400,7 @@ nav {
 }
 
 .agendamento {
-	width: 400px;
+	width: auto;
 	height: 340px;
 	padding: 1px 0px 0px 0px;
 	margin: 20px auto auto auto;
@@ -549,6 +549,8 @@ span {
 	.espacoum {
 		width: 100% !important;
 		height: 100% !important;
+		display: block;
+		margin: auto;
 	}
 
 	.itemform {
@@ -558,6 +560,8 @@ span {
 	.espacodois {
 		width: 100% !important;
 		height: 100% !important;
+		display: block;
+		margin: auto;
 	}
 
 	#sobre::after {
